@@ -40,10 +40,9 @@ export class CriarPensamentoComponent implements OnInit {
         Validators.compose([
           Validators.required,
           Validators.minLength(3),
-          minusculoValidator,
         ]),
       ],
-      modelo: [''],
+      modelo: ['', Validators.required],
     });
   }
 

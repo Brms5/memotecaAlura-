@@ -1,58 +1,53 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Que bom que vc veio",
-      "autoria": "Nay",
-      "modelo": "modelo1"
-    },
-    {
       "id": 2,
       "conteudo": "Estudando Angular",
       "autoria": "Dev Alura",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 3,
       "conteudo": "Angular parece ser bem legal'",
       "autoria": "Dev Alura",
-      "modelo": "modelo3"
-    },
-    {
-      "conteudo": "Editando pensamento",
-      "autoria": "bruno",
-      "modelo": "modelo2",
-      "id": 4
-    },
-    {
-      "conteudo": "Novo pensamento",
-      "autoria": "Bruno",
-      "modelo": "modelo2",
-      "id": 5
+      "modelo": "modelo3",
+      "favorito": true
     },
     {
       "conteudo": "Que a força esteja com você",
       "autoria": "Bruno M",
       "modelo": "modelo1",
+      "favorito": true,
       "id": 6
     },
     {
       "conteudo": "Novo pensamento 01",
       "autoria": "bruno",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 7
     },
     {
       "conteudo": "Novo pensamento 02",
       "autoria": "Bruno",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 8
     },
     {
       "conteudo": "Novo pensamento 05",
       "autoria": "Bruno",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 10
+    },
+    {
+      "conteudo": "Novo pensamento 06",
+      "autoria": "Bruno",
+      "modelo": "modelo1",
+      "favorito": false,
+      "id": 11
     }
   ]
 }

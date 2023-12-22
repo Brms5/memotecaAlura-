@@ -43,6 +43,7 @@ export class CriarPensamentoComponent implements OnInit {
         ]),
       ],
       modelo: ['', Validators.required],
+      favorito: [false],
     });
   }
 

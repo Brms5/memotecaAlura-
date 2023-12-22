@@ -16,6 +16,7 @@ export class EditarPensamentoComponent implements OnInit {
     conteudo: '',
     autoria: '',
     modelo: '',
+    favorito: false,
   };
 
   constructor(
@@ -38,7 +39,8 @@ export class EditarPensamentoComponent implements OnInit {
         '',
         Validators.compose([Validators.required, Validators.minLength(3)]),
       ],
-      modelo: [''],
+      modelo: [this.pensamento.modelo, Validators.required],
+      favorito: [this.pensamento.favorito],
     });
 
     const id = this.route.snapshot.paramMap.get('id');
